@@ -1,47 +1,46 @@
 # Awesome Machine Learning Playground
 
-By [Rene Wang](https://rene.wang)
+作者：[Rene Wang](https://rene.wang)
 
-[[`Blog`](https://rene.wang/)] [[`Project`](https://ai.rene.wang/)] [[`Demo`](https://segment-anything.com/demo)]
+[[`博客`](https://rene.wang/)] [[`项目`](https://ai.rene.wang/)] [[`演示`](https://segment-anything.com/demo)]
 
-This repository contains various machine learning projects, each focusing on fundamental concepts within different subfields of machine learning. The projects are framework-agnostic and are available for free, with no ads.
+这个代码库包含各种机器学习项目，每个项目都专注于机器学习不同子领域内的基本概念。这些项目与框架无关，免费提供，没有广告。
 
-Upon completing all the projects, you'll gain a solid foundation in machine learning, making it easier to dive into research papers.
+完成所有项目后，您将建立坚实的机器学习基础，更容易深入研究论文。
 
-
-|             Model             |   What you'll learn    |                                                                                              Get Start                                                                                              |
+|             模型             |   学到的内容    |                                                                                              开始                                                                                              |
 | :---------------------------: | :--------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Hand-written digits detection | DL, Neural Network, GA | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| SMS Filter & Text Generation  |  NLP, Neural Network   | <a href="https://colab.research.google.com/drive/12ylRxbXYiuZqODUKW3yrBHGwXU9MLp0s?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Obstacle Avoidance  | APF, RL   | <a href="https://colab.research.google.com/drive/16ordFNqghVnzfQwFEMR9e_uxYMgnF5v3?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-|    🚧 Pixel_Sprite_Generation    | ControlNet, Stable Diffusion, RNN  | <a href="https://colab.research.google.com/drive/1AwXDxpAZLudLPWYWdkqBMZXWdAagnmYt?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |                                                                                        |
-|        Drone Dogfight         |          RDL           |                                                                                          Run Locally                                                                                          |
+| 手写数字检测 | 深度学习，神经网络，遗传算法 | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="在 Colab 中打开"/></a> |
+| 短信过滤与文本生成 | 自然语言处理，神经网络 | <a href="https://colab.research.google.com/drive/12ylRxbXYiuZqODUKW3yrBHGwXU9MLp0s?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="在 Colab 中打开"/></a> |
+| 避障 | 人工势场法，强化学习 | <a href="https://colab.research.google.com/drive/16ordFNqghVnzfQwFEMR9e_uxYMgnF5v3?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="在 Colab 中打开"/></a> |
+|    🚧 像素精灵生成    | 控制网络，稳定扩散，循环神经网络  | <a href="https://colab.research.google.com/drive/1AwXDxpAZLudLPWYWdkqBMZXWdAagnmYt?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="在 Colab 中打开"/></a> |                                                                                        |
+|        无人机空战         |          强鲁棒深度学习           |                                                                                          在本地运行                                                                                          |
 
-## Prerequisites:
+## 先决条件：
 
-This repo is not a beginner guide. Make sure you meet these requirements:
+这个代码库不是入门指南。确保您满足以下要求：
 
-- A Google account (to run the notebooks in Google Colab)
-- Basic Python programming experience
-- A foundational understanding of advanced mathematics
-- Basic proficiency in English reading
+- 一个 Google 账号（在 Google Colab 中运行笔记本）
+- 基本的 Python 编程经验
+- 对高级数学有基础的理解
+- 基本的英文阅读能力
 
-## Run on Local
+## 本地运行
 
-The code requires `python>=3.8`. PyTorch or other framework are not needed.
+该代码需要 `python>=3.8`。不需要 PyTorch 或其他框架。
 
 ```shell
 py -m venv Env
 ./Env/Scripts/activate
 pip install -r requirements.txt
-# or
+# 或者
 py -m pip install -r requirements.txt
 ```
 
-## License
+## 许可证
 
-The repo is licensed under the [Apache 2.0 license](LICENSE).
+该代码库采用 [Apache 2.0 许可证](LICENSE)。
 
-## Contributing
+## 贡献
 
-See [contributing](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
+请查看 [贡献指南](CONTRIBUTING.md) 和 [行为准则](CODE_OF_CONDUCT.md)。
